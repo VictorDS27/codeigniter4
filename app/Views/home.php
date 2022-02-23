@@ -10,22 +10,22 @@
     <div class="carousel-item active">
       <img src="https://hqbr.com.br/wp-content/uploads/2021/03/Cabeca-De-Nabo2.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>A sla</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Scurururu</h5>
+        <p>u u</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://i0.wp.com/nerdizmo.uai.com.br/wp-content/uploads/sites/29/2014/09/100-Wallpapers-do-Studio-Ghibli-GEEKNESS-Capa.jpg?fit=1200%2C510&ssl=1&resize=1280%2C720"d-block w-100" alt="...">
+      <img src="http://3.bp.blogspot.com/_YO8CezyesrM/TALsvrgg0LI/AAAAAAAAC64/Fts7NfKetFM/s1600/casteloanimado_2005_img_5.jpg"d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Erika Gnomo</h5>
-        <p>Erika Procurando o guillen</p>
+        <h5>in da mundai</h5>
+        <p>Scurururu u u</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="https://cdn.bhdw.net/im/howl-sophie-papel-de-parede-39819_w635.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Preta de neve</h5>
-        <p>GUillen prucurando a erika</p>
+        <h5>ué ix da propraine</h5>
+        <p>telem</p>
       </div>
     </div>
   </div>
