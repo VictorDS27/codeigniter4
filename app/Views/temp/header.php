@@ -25,7 +25,7 @@
           <a class="nav-link" href="Quemsomos">Quem Somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="contato">Contato</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled">Disabled</a>

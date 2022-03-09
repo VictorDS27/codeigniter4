@@ -10,7 +10,7 @@ class Home extends BaseController
         echo view('home');
         echo view('temp/footer');
     }
-    public function page($page)
+    public function page($page='home')
     {
         echo view('temp/header');
         echo view($page);

@@ -8,24 +8,24 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://hqbr.com.br/wp-content/uploads/2021/03/Cabeca-De-Nabo2.jpg" class="d-block w-100" alt="...">
+      <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2021/01/18100188-1-e1610573650448.jpg?quality=70&strip=info" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Scurururu</h5>
-        <p>u u</p>
+        <h5>Carros Novos</h5>
+        <p>R$42.000</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="http://3.bp.blogspot.com/_YO8CezyesrM/TALsvrgg0LI/AAAAAAAAC64/Fts7NfKetFM/s1600/casteloanimado_2005_img_5.jpg"d-block w-100" alt="...">
+      <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/10/Chevrolet-Onix-Plus.jpg?w=876&h=484&crop=1"d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>in da mundai</h5>
-        <p>Scurururu u u</p>
+        <h5>Carros Seminovos</h5>
+        <p>Com Descontos imperdiveis</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://cdn.bhdw.net/im/howl-sophie-papel-de-parede-39819_w635.jpg" class="d-block w-100" alt="...">
+      <img src="https://folhaz.com.br/wp-content/uploads/2021/12/chevrolet-onix-2021.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>ué ix da propraine</h5>
-        <p>telem</p>
+        <h5>Parcele em até 48x</h5>
+        <p>Sem Juros</p>
       </div>
     </div>
   </div>
