@@ -28,7 +28,7 @@
           <a class="nav-link active" aria-current="page" href="home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Quemsomos">Quem Somos</a>
+          <a class="nav-link" href="quemsomos">Quem Somos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contato">Contato</a>
