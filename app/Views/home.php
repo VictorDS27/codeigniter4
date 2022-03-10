@@ -8,14 +8,14 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2021/01/18100188-1-e1610573650448.jpg?quality=70&strip=info" class="d-block w-100" alt="...">
+      <img src="https://garagem360.com.br/wp-content/uploads/2021/08/ALTA20-1.jpeg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Carros Novos</h5>
         <p>R$42.000</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/10/Chevrolet-Onix-Plus.jpg?w=876&h=484&crop=1"d-block w-100" alt="...">
+      <img src="https://omunicipio.com.br/wp-content/uploads/2021/07/dicas-para-dirigir-corretamente-um-carro-da-categoria-suv-kr1312-foto-1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Carros Seminovos</h5>
         <p>Com Descontos imperdiveis</p>
