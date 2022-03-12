@@ -18,7 +18,7 @@
 <div class="w-50 p-3" "height: 50px style="background-color: #eee;">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Bem Vindo</a>
+    <a class="navbar-brand" href="home">Bem Vindo</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
