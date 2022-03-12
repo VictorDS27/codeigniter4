@@ -19,5 +19,5 @@
      <input type="password" class="form-control" id="inputPassword">
     </div>
     <!--fim da senha-->
-    <a type="button" class="btn btn-secondary" href="cadastro">Entrar</a>
+    <a type="button" id="entrar" class="btn btn-secondary" href="cadastro">Entrar</a>
 </div>
