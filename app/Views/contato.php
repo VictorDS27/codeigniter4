@@ -1,9 +1,10 @@
-<div>
     <!--Titulo-->
- <blockquote class="blockquote text-center">
- <h4 style="font-family: garamond;">Fale Com Nossa Equipe</h4>
+    <blockquote class="blockquote text-center">
+ <h4 style="font-family: Cursive;">Fale Com Nossa Equipe</h4>
 </blockquote>
     <!-- fim do Titulo--> 
+
+<div class="w-50">
     
     <!--nome-->
  <div class="input-group mb-3">

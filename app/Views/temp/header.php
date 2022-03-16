@@ -9,14 +9,15 @@
     <title>Document</title>
 </head>
 <body>
+
   <style>
     body{
-    background: #eee ;
+    background: #94b1b9 ;
     }
 </style>
 
-<div class="w-50 p-3" "height: 50px style="background-color: #eee;">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="w-100 p-3" style="background-color: #94b1b9 ">
+<nav class="navbar navbar-expand navbar-light" style="background-color: #6c8aa4;">
   <div class="container-fluid">
     <a class="navbar-brand" href="home">Bem Vindo</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

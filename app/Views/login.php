@@ -1,11 +1,11 @@
-
-<div>
-    <!--titulo-->
- <blockquote class="blockquote text-center">
- <h4 style="font-family: garamond;">Login</h4>
+  <!--titulo-->
+  <blockquote class="blockquote text-center">
+ <h4 style="font-family: Cursive;">Login</h4>
  </blockquote>
     <!--fim do titulo-->
 
+
+<div class="w-50">
     <!--Email-->
  <div class="input-group mb-3">
  <span class="input-group-text" id="basic-addon1">email</span>
@@ -16,8 +16,9 @@
     <!--senha-->
     <div class="input-group mb-3" >
     <span class="input-group-text" id="basic-addon1">Senha</span>
-     <input type="password" class="form-control" id="inputPassword">
+     <input type="password" class="form-control" id="inputPassword" placeholder="Sua Senha">
     </div>
     <!--fim da senha-->
+
     <a type="button" id="entrar" class="btn btn-secondary" href="cadastro">Entrar</a>
 </div>

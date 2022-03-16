@@ -1,12 +1,12 @@
-<div>
-    <!--titulo-->
- <blockquote class="blockquote text-center">
- <h4 style="font-family: garamond;">Cadastrar Veiculo</h4>
+   <!--titulo-->
+   <blockquote class="blockquote text-center">
+ <h4 style="font-family: Cursive;">Cadastrar Veiculo</h4>
  </blockquote>
 
+<div class="w-50">
 
      <!--Marca-->
-     <div class="input-group mb-3">
+     <div class="input-group mb-3 ">
  <span class="input-group-text" id="basic-addon1">Marca</span>
   <input type="text" class="form-control" id="marca" placeholder="Marca do veiculo">
  </div>
@@ -33,5 +33,10 @@
  </div>
     <!--fim da cor-->
 
-    <button type="button" class="btn btn-secondary" id="cadastrar">Cadastrar</button>
+
+<a type="button" id="entrar" class="btn btn-secondary" href="home">Voltar</a>
+
+<button type="button" class="btn btn-secondary" id="cadastrar">Cadastrar</button>
+
+    
 </div>
