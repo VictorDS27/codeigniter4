@@ -1,6 +1,6 @@
 
 
-   <div id="carouselExampleCaptions" class="carousel slide w-50" data-bs-ride="carousel">
+   <div id="carouselExampleCaptions" class="carousel slide w-50" data-bs-ride="carousel" style="position: absolute">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -38,4 +38,18 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+</div>
+
+<div style="position: absolute; left: 55%;">
+
+<blockquote class="blockquote text-center">
+ <h4 style="font-family: Cursive;">Seja Bem-Vindo</h4>
+</blockquote>
+
+    <div class="col-md-8">
+        <p>Olá, Atualmente estamos trabalhando em desenvolver esse WebSite voltado a vendas de carros.</p>
+        <p>por enquanto, você está utilizando a versão beta.
+        <p class="text-muted" class="card-text" ><small >Beta 0.0.1</small></p>
+    </div>
+  </div>
 </div>
