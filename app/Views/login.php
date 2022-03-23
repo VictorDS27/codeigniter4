@@ -20,5 +20,5 @@
     </div>
     <!--fim da senha-->
 
-    <a type="button" id="entrar" class="btn btn-secondary" href="cadastro">Entrar</a>
+    <button type="button" id="entrar" class="btn btn-secondary" href="cadastro">Entrar</button>
 </div>
