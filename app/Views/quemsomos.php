@@ -1,6 +1,6 @@
 <!--quem somos-->
 <div class="card-group w-50">
-  <div class="card" style="background-color:#94b1b9;">
+  <div class="card" style="background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);">
     <img src="https://i.pinimg.com/originals/89/ab/22/89ab229df0658d375926c2d695b9a2f4.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5>Quem Somos?</h5>
@@ -11,7 +11,7 @@
 <!--fim do quem somos-->
 
   <!--endereço-->
-  <div class="card" style="background-color: #94b1b9;">
+  <div class="card" style="background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);;">
     <img src="https://i.pinimg.com/originals/89/ab/22/89ab229df0658d375926c2d695b9a2f4.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5>Endereço</h5>

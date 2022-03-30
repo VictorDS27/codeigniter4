@@ -12,15 +12,13 @@
 
   <style>
     body{
-    background: rgb(238,174,202) ;
-    background: radial-gradient(circle,rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) ;
+      background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
     }
 </style>
 
-<div class="w-100 p-3" style=" background: rgb(238,174,202) ;
-    background: radial-gradient(circle,rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) ;">
+<div class="w-100 p-3" style="background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);">
     
-<nav class="navbar navbar-expand navbar-light" style="background-color: #6c8aa4;">
+<nav class="navbar navbar-expand navbar-light" style="background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);">
   <div class="container-fluid">
     <a class="navbar-brand" href="home">Welcome</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

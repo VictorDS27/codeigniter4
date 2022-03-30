@@ -26,12 +26,12 @@ class Pessoas extends Migration
             ],
             
             ]);
-            $this->forgete->addkey('id',true);
-            $this->forgete->createTable('tb_pessoas');
+            $this->forge->addkey('id',true);
+            $this->forge->createTable('tb_pessoas');
     }
 
     public function down()
     {
-        $this->forgete->dropeTable('tb_pessoas');
+        $this->forge->dropeTable('tb_pessoas');
     }
 }
