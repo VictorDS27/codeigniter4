@@ -6,7 +6,25 @@ body {
     font-family: 'Poppins', sans-serif;
   }
 
-.main-cadastro{
+  .circulo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(55deg,#052918 ,#00ff88);
+    clip-path: circle(20% at right 0%);
+  }
+
+  .circulo2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(20deg,#1b754b ,#00ff88);
+    clip-path: circle(10% at left 100%);
+  }
+
+   /*contato*/
+
+.main-cad{
    width: 90vw;
    height: 80vh;
    background: #201b2c; 
@@ -14,7 +32,7 @@ body {
    justify-content: center;
    align-items: center;
   }
-  .direita-cadastro{
+  .direita-cad{
     width: 40vw;
     height: 80vh;
     display: flex;
@@ -22,21 +40,21 @@ body {
     align-items: center;
     flex-direction: column;
   }
-  .direita-cadastro > h1 {
+  .direita-cad > h1 {
     color: #77ffc0;
   }
-  .imagemAstro{
+  .Emaill{
     width: 30vw;
   }
 
-  .esquerda-cadastro{
+  .esquerda-cad{
     width: 50vw;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .card-cadastro{
+  .card-cad{
     width: 60%;
     display: flex;
     justify-content: center;
@@ -47,7 +65,7 @@ body {
     border-radius: 20px;
     box-shadow: 0px 10px 10px #00000056;
   }
-  .card-cadastro > h1 {
+  .card-cad > h1 {
     color: #00ff88;
     font-weight: 600;
     margin: 0;
@@ -79,7 +97,7 @@ body {
   .textfield > input::placeholder{
     color: #f0ffff94;
   }
-  .btn-cadastro{
+  .btn-enviar{
     width: 80%;
     padding: 16px 0px;
     margin: 25px;
@@ -98,9 +116,312 @@ body {
     color: white;
   }
 
+  /* Home */
+
+  .main-home{
+    width: 90vw;
+    height: 80vh;
+    background: #201b2c; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .direita-home{
+     width: 40vw;
+     height: 80vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+   }
+   .direita-home > h1 {
+     color: #77ffc0;
+   }
+   .imagemHome{
+     width: 30vw;
+   }
+ 
+   .esquerda-home{
+     width: 50vw;
+     height: 80vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .card-home{
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 20px 20px ;
+     background: #2f2841;
+     border-radius: 20px;
+     box-shadow: 0px 10px 10px #00000056;
+   }
+   .card-home > h1 {
+     color: #00ff88;
+     font-weight: 600;
+     margin: 0;
+   }
+   .textfield-home {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     margin: 4px 0px;
+   }
+
+   .textfield-home > label {
+     color:#f0ffffde;
+     margin-bottom: 10px;
+   }
+ 
   .aa{
     color: #9f95b9;
   }
-  .btn-contato{
-    padding: 1;
-  }
+
+   /* quem somos? */
+
+   
+  .main-quem {
+    width: 90vw;
+    height: 80vh;
+    background: #201b2c; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .direita-quem {
+     width: 40vw;
+     height: 80vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+   }
+   .direita-quem > h1 {
+     color: #77ffc0;
+   }
+   .imagemQuem{
+     width: 30vw;
+   }
+ 
+   .esquerda-quem {
+     width: 50vw;
+     height: 80vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .card-quem {
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 20px 20px ;
+     background: #2f2841;
+     border-radius: 20px;
+     box-shadow: 0px 10px 10px #00000056;
+   }
+   .card-quem > h1 {
+     color: #00ff88;
+     font-weight: 600;
+     margin: 0;
+   }
+   .textfield-quem {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     margin: 4px 0px;
+   }
+
+   .textfield-quem > label {
+     color:#f0ffffde;
+     margin-bottom: 10px;
+   }
+ 
+      /* Login */
+
+      .main-login{
+        width: 90vw;
+        height: 80vh;
+        background: #201b2c; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .direita-login{
+         width: 40vw;
+         height: 80vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+       }
+       .direita-login > h1 {
+         color: #77ffc0;
+       }
+       .loginn{
+         width: 30vw;
+       }
+     
+       .esquerda-login{
+         width: 50vw;
+         height: 80vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       }
+       .card-login{
+         width: 60%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         padding: 20px 20px ;
+         background: #2f2841;
+         border-radius: 20px;
+         box-shadow: 0px 10px 10px #00000056;
+       }
+       .card-login > h1 {
+         color: #00ff88;
+         font-weight: 600;
+         margin: 0;
+       }
+       .textfield {
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         justify-content: center;
+         margin: 4px 0px;
+       }
+       .textfield > input{
+         width: 100%;
+         border: none;
+         border-radius: 10px;
+         padding: 10%;
+         background: #514869;
+         color: #f0ffffde;
+         font-size: 10pt;
+         box-shadow: 0px 10px 10px #00000056;
+         outline: none;
+         box-sizing: border-box;
+       }
+       .textfield > label {
+         color:#f0ffffde;
+         margin-bottom: 10px;
+       }
+     
+       .textfield > input::placeholder{
+         color: #f0ffff94;
+       }
+       .btn-login{
+         width: 80%;
+         padding: 16px 0px;
+         margin: 25px;
+         border: none;
+         border-radius: 10px;
+         outline: none;
+         text-transform: uppercase;
+         font-weight: 700;
+         letter-spacing: 2px;
+         color: #2b134b;
+         background: #00ff88;
+         cursor: pointer;
+         box-shadow: 0px 10px 40px -12px #00ff8052;
+       }
+
+       /* Cadastro */
+
+       
+.main-cadastro{
+  width: 90vw;
+  height: 80vh;
+  background: #201b2c; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .direita-cadastro {
+   width: 40vw;
+   height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .direita-cadastro > h1 {
+   color: #77ffc0;
+ }
+ .imagemAstro{
+   width: 30vw;
+ }
+
+ .esquerda-cadastro {
+   width: 50vw;
+   height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .card-cadastro{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px 20px ;
+   background: #2f2841;
+   border-radius: 20px;
+   box-shadow: 0px 10px 10px #00000056;
+ }
+ .card-cadastro > h1 {
+   color: #00ff88;
+   font-weight: 600;
+   margin: 0;
+ }
+ .textfield {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   margin: 4px 0px;
+ }
+ .textfield > input{
+   width: 100%;
+   border: none;
+   border-radius: 10px;
+   padding: 10%;
+   background: #514869;
+   color: #f0ffffde;
+   font-size: 10pt;
+   box-shadow: 0px 10px 10px #00000056;
+   outline: none;
+   box-sizing: border-box;
+ }
+ .textfield > label {
+   color:#f0ffffde;
+   margin-bottom: 10px;
+ }
+
+ .textfield > input::placeholder{
+   color: #f0ffff94;
+ }
+ .btn-cadastro{
+   width: 80%;
+   padding: 16px 0px;
+   margin: 25px;
+   border: none;
+   border-radius: 10px;
+   outline: none;
+   text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: 2px;
+   color: #2b134b;
+   background: #00ff88;
+   cursor: pointer;
+   box-shadow: 0px 10px 40px -12px #00ff8052;
+ }

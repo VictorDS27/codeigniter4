@@ -1,24 +1,22 @@
-  <!--titulo-->
-  <blockquote class="blockquote text-center">
- <h4 style="font-family: Cursive;">Login</h4>
- </blockquote>
-    <!--fim do titulo-->
-
-
-<div class="w-50">
-    <!--Email-->
- <div class="input-group mb-3">
- <span class="input-group-text" id="basic-addon1">email</span>
-  <input type="email" class="form-control" id="emaillogin" placeholder="nome@examplo.com">
- </div>
-    <!--fim do Email-->
-
-    <!--senha-->
-    <div class="input-group mb-3" >
-    <span class="input-group-text" id="basic-addon1">Senha</span>
-     <input type="password" class="form-control" id="inputPassword" placeholder="Sua Senha">
+<form action="">
+<div class="main-login">
+    <div class="direita-login">
+        <h1>Faça login:</h1>
+        <img src="img/login.svg" class="loginn" alt="astro">
     </div>
-    <!--fim da senha-->
-
-    <button type="button" id="entrar" class="btn btn-secondary" href="cadastro">Entrar</button>
+    <div class="esquerda-login">
+        <div class="card-login">
+            <h1>Login:</h1>
+            <div class="textfield">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="email">
+            </div>
+            <div class="textfield">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder="senha">
+            </div>
+            <button type="submit" class="btn-login">Logar</button>
+        </div>
+    </div>
 </div>
+</form>

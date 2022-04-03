@@ -1,12 +1,12 @@
-<div class="main-cadastro">
-    <div class="direita-cadastro">
+<div class="main-quem">
+    <div class="direita-quem">
         <h1>Quem somos?</h1>
-        <img src="img/quemsomos.svg" class="imagemAstro" alt="homee">
+        <img src="img/quemsomos.svg" class="imagemQuem" alt="homee">
 </div>
-    <div class="esquerda-cadastro">
-        <div class="card-cadastro">
+    <div class="esquerda-quem">
+        <div class="card-quem">
             <h1>Um pouco sobre</h1>
-            <div class="textfield-cadastro">
+            <div class="textfield-quem">
               
             <label for="nos" class="corr">Somos um site de vendas de carros, anunciamos os nossos carros que estão disponiveis em nossa loja fisica em Peruibe</label>
                <br>

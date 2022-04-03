@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div class="circulo"></div>
+<div class="circulo2"></div>
+
 <div class="w-50 p-3" style="background: #201b2c;">
-    
 <nav class="navbar navbar-expand navbar-dark" style="background: #201b2c;">
   <div class="container-fluid">
     <a class="navbar-brand" href="home">Welcome</a>
