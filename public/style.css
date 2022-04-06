@@ -10,7 +10,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: linear-gradient(55deg,#052918 ,#00ff88);
+    background: linear-gradient(55deg,#052918 ,#9539e7);
     clip-path: circle(20% at right 0%);
   }
 
@@ -18,7 +18,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: linear-gradient(20deg,#1b754b ,#00ff88);
+    background: linear-gradient(20deg, #7f2da4 , #9539e7);
     clip-path: circle(10% at left 100%);
   }
 
@@ -41,7 +41,7 @@ body {
     flex-direction: column;
   }
   .direita-cad > h1 {
-    color: #77ffc0;
+    color: #a551ca;
   }
   .Emaill{
     width: 30vw;
@@ -66,7 +66,7 @@ body {
     box-shadow: 0px 10px 10px #00000056;
   }
   .card-cad > h1 {
-    color: #00ff88;
+    color: #7f2da4;
     font-weight: 600;
     margin: 0;
   }
@@ -108,7 +108,7 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
     color: #2b134b;
-    background: #00ff88;
+    background: #a551ca;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
   }
@@ -135,7 +135,7 @@ body {
      flex-direction: column;
    }
    .direita-home > h1 {
-     color: #77ffc0;
+     color: #a551ca;
    }
    .imagemHome{
      width: 30vw;
@@ -160,7 +160,7 @@ body {
      box-shadow: 0px 10px 10px #00000056;
    }
    .card-home > h1 {
-     color: #00ff88;
+     color: #7f2da4;
      font-weight: 600;
      margin: 0;
    }
@@ -201,7 +201,7 @@ body {
      flex-direction: column;
    }
    .direita-quem > h1 {
-     color: #77ffc0;
+     color: #a551ca;
    }
    .imagemQuem{
      width: 30vw;
@@ -226,7 +226,7 @@ body {
      box-shadow: 0px 10px 10px #00000056;
    }
    .card-quem > h1 {
-     color: #00ff88;
+     color: #7f2da4;
      font-weight: 600;
      margin: 0;
    }
@@ -262,7 +262,7 @@ body {
          flex-direction: column;
        }
        .direita-login > h1 {
-         color: #77ffc0;
+         color: #a551ca;
        }
        .loginn{
          width: 30vw;
@@ -287,7 +287,7 @@ body {
          box-shadow: 0px 10px 10px #00000056;
        }
        .card-login > h1 {
-         color: #00ff88;
+         color: #7f2da4;
          font-weight: 600;
          margin: 0;
        }
@@ -329,9 +329,9 @@ body {
          font-weight: 700;
          letter-spacing: 2px;
          color: #2b134b;
-         background: #00ff88;
+         background: #a551ca;
          cursor: pointer;
-         box-shadow: 0px 10px 40px -12px #00ff8052;
+         box-shadow: 0px 10px 40px -12px #7f2da4;
        }
 
        /* Cadastro */
@@ -354,7 +354,7 @@ body {
    flex-direction: column;
  }
  .direita-cadastro > h1 {
-   color: #77ffc0;
+   color: #a551ca;
  }
  .imagemAstro{
    width: 30vw;
@@ -379,7 +379,7 @@ body {
    box-shadow: 0px 10px 10px #00000056;
  }
  .card-cadastro > h1 {
-   color: #00ff88;
+   color: #7f2da4;
    font-weight: 600;
    margin: 0;
  }
@@ -421,7 +421,7 @@ body {
    font-weight: 700;
    letter-spacing: 2px;
    color: #2b134b;
-   background: #00ff88;
+   background: #a551ca;
    cursor: pointer;
-   box-shadow: 0px 10px 40px -12px #00ff8052;
+   box-shadow: 0px 10px 40px -12px #7f2da4;
  }
