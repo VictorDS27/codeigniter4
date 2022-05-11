@@ -10,16 +10,21 @@
 
             <div class="textfield">
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" placeholder="Nome">
+                <input type="text" name="nome" placeholder="Nome"
+                value="<?= isset($pessoa['nome']) ? $pessoa['nome'] : "" ?>">
             </div>
             <div class="textfield">
                 <label for="Profissao">Profissão</label>
-                <input type="text" name="profissao" placeholder="Profissão">
+                <input type="text" name="profissao" placeholder="Profissão"
+                value="<?= isset($pessoa['profissao']) ? $pessoa['profissao'] : "" ?>">
             </div>
             <div class="textfield">
                 <label for="Idade">Idade</label>
-                <input type="number" name="idade" placeholder="Idade">
+                <input type="number" name="idade" placeholder="Idade"
+                value="<?= isset($pessoa['idade']) ? $pessoa['idade'] : "" ?>">
             </div>
+            <input type="hidden" name="id"
+            value="<?= isset($pessoa['id']) ? $pessoa['id'] : "" ?>">
             <button type="submit" class="btn-cadastrop">Cadastrar</button>
   
      </div>   
