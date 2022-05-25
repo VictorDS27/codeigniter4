@@ -38,6 +38,7 @@ $routes->match(['get','post'],'editar/(:num)', 'Home::editar/$1');
 $routes->match(['get','post'],'gravar', 'Home::gravar');
 $routes->match(['get','post'],'editar/gravar', 'Home::gravar/$1');
 $routes->get('pessoa', 'Home::pessoas');
+$routes->get('veiculo', 'Home::veiculos');
 $routes->get('(:any)', 'Home::page/$1');
 
 /*

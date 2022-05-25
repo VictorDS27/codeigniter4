@@ -1,4 +1,4 @@
-<form action="">
+<form method="post" action="concluir">
 <div class="main-cadastro">
     <div class="direita-cadastro">
         <h1>Cadastre seu veiculo:</h1>
