@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
  use App\Models\PessoasModel;
+ use App\Models\VeiculosModel;
 
 class Home extends BaseController
 
@@ -71,15 +72,24 @@ class Home extends BaseController
         echo view('temp/footer');
     }
 
+
+
+
     public function veiculos(){
         $model = new VeiculosModel();
-        $data = [
+        $Carros = [
             'title'=>'Veiculos',
             'veiculos'=>$model->getVeiculos()
         ];
 
     echo view('temp/header');
-    echo view('veiculo', $data);
+    echo view('veiculo', $Carros);
+    echo view('temp/footer');
+}
+
+public function cadastrar(){
+    echo view('temp/header');
+    echo view('cadastro-carro');
     echo view('temp/footer');
 }
 
@@ -95,4 +105,12 @@ public function concluir(){
     ]);
     
     return redirect('veiculo');
+ }
+
+ public function excluirVeiculo($id = null){
+    $model = new VeiculosModel();
+    $model->delete($id);
+    return redirect("veiculo");
 }
+
+} 

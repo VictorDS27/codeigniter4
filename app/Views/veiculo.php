@@ -2,23 +2,24 @@
 
 <table class="table">
   <tr>
-    <td>Nome</td>
-    <td>Profissão</td>
-    <td>Idade</td>
-    <td></td>
+    <td>marca</td>
+    <td>modelo</td>
+    <td>placa</td>
+    <td>cor</td>
  </tr> 
 
  <?php
 
- foreach($pessoas as $pessoa_item){
+ foreach($veiculos as $veiculo_item){
    ?>
    <div >
    <tr style="color: #9539e7">
-   <td> <?= $pessoa_item['nome'] ?></td> 
-   <td> <?= $pessoa_item['profissao'] ?></td> 
-   <td> <?= $pessoa_item['idade'] ?></td> 
-   <td><a href="excluir/<?=$pessoa_item['id']?>" class="btn btn-danger">Apagar</a></td>
-   <td><a href="editar/<?=$pessoa_item['id']?>" class="btn btn-warning">Editar</a></td>
+   <td> <?= $veiculo_item['marca'] ?></td> 
+   <td> <?= $veiculo_item['modelo'] ?></td> 
+   <td> <?= $veiculo_item['placa'] ?></td> 
+   <td> <?= $veiculo_item['cor'] ?></td>
+   <td><a href="excluirVeiculo/<?=$veiculo_item['id']?>" class="btn btn-danger">Apagar</a></td>
+   <td><a href="editarVeiculo/<?=$veiculo_item['id']?>" class="btn btn-warning">Editar</a></td>
   </tr>
 </div>
 

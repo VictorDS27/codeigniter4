@@ -32,13 +32,27 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::page');
+
 $routes->match(['get','post'],'cadastro', 'Home::cadastro');
+
+$routes->match(['get','post'],'cadastrar', 'Home::cadastrar');
+
 $routes->match(['get','post'],'excluir/(:num)', 'Home::excluir/$1');
-$routes->match(['get','post'],'editar/(:num)', 'Home::editar/$1');
+
+$routes->match(['get','post'],'excluirVeiculo/(:num)', 'Home::excluirVeiculo/$1');
+
+$routes->match(['get','post'],'excluir/(:num)', 'Home::excluir/$1');
+
 $routes->match(['get','post'],'gravar', 'Home::gravar');
+
+$routes->match(['get','post'],'concluir', 'Home::concluir');
+
 $routes->match(['get','post'],'editar/gravar', 'Home::gravar/$1');
+
 $routes->get('pessoa', 'Home::pessoas');
+
 $routes->get('veiculo', 'Home::veiculos');
+
 $routes->get('(:any)', 'Home::page/$1');
 
 /*
