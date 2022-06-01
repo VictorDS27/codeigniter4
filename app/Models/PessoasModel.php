@@ -16,4 +16,8 @@ class PessoasModel extends Model{
     public function getPessoa($id){
         return $this->asArray()->where(['id'=>$id])->first();
     }
+
+    public function userLogin($nome, $senha){
+        return $this->asArray()->where(['nome'=>$nome, 'senha'=>MD5($senha)])->first();
+    }
 }

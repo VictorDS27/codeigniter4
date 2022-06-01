@@ -35,6 +35,10 @@ $routes->get('/', 'Home::page');
 
 $routes->match(['get','post'],'cadastro', 'Home::cadastro');
 
+$routes->match(['get','post'],'logar', 'Home::logar');
+
+$routes->match(['get','post'],'login', 'Home::login');
+
 $routes->match(['get','post'],'cadastrar', 'Home::cadastrar');
 
 $routes->match(['get','post'],'excluir/(:num)', 'Home::excluir/$1');

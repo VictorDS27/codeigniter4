@@ -1,4 +1,4 @@
-<form action="">
+<form action="logar" method="post">
 <div class="main-login">
     <div class="direita-login">
         <h1>Faça login:</h1>
@@ -8,8 +8,8 @@
         <div class="card-login">
             <h1>Login:</h1>
             <div class="textfield">
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="email">
+                <label for="usuario">Usuário</label>
+                <input type="text" name="usuario" placeholder="usuario">
             </div>
             <div class="textfield">
                 <label for="senha">Senha</label>

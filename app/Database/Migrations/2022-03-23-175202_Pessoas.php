@@ -24,7 +24,9 @@ class Pessoas extends Migration
             'idade'=>[
                 'type'=>'int',
             ],
-            
+            'senha'=>[
+                'type'=>'text'
+            ],
             ]);
             $this->forge->addkey('id',true);
             $this->forge->createTable('tb_pessoas');
@@ -32,6 +34,6 @@ class Pessoas extends Migration
 
     public function down()
     {
-        $this->forge->dropeTable('tb_pessoas');
+        $this->forge->dropTable('tb_pessoas');
     }
 }

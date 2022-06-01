@@ -37,7 +37,7 @@ class Veiculos extends Migration
 
     public function down()
     {
-        $this->forge->dropeTable('tb_veiculos');
+        $this->forge->dropTable('tb_veiculos');
     }
 }
 
