@@ -33,6 +33,8 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::page');
 
+$routes->match(['get','post'],'sair', 'Home::sair');
+
 $routes->match(['get','post'],'cadastro', 'Home::cadastro');
 
 $routes->match(['get','post'],'logar', 'Home::logar');
