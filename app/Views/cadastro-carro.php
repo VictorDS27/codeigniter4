@@ -2,7 +2,7 @@
 <div class="main-cadastro">
     <div class="direita-cadastro">
         <h1>Cadastre seu veiculo:</h1>
-        <img src="img/astronauta.svg" class="imagemAstro" alt="astro">
+        <img src="<?=base_url()?>/img/astronauta.svg" class="imagemAstro" alt="astro">
     </div>
     <div class="esquerda-cadastro">
         <div class="card-cadastro">

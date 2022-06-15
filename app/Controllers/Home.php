@@ -31,9 +31,9 @@ class Home extends BaseController
             'session' => \Config\Services::session()
         ];
 
-            if(!$data['session']->get('logado')){
+        if(!$data['session']->get('logado')){
                 return redirect("login");
-            }
+        }
 
         echo view('temp/header');
         echo view('pessoa', $data);
@@ -47,7 +47,6 @@ class Home extends BaseController
         if(!$data['session']->get('logado')){
             return redirect("login");
         }
-
         echo view('temp/header');
         echo view('cadastro-pessoas');
         echo view('temp/footer');
@@ -56,11 +55,6 @@ class Home extends BaseController
     public function gravar(){
         $model = new PessoasModel();
         $data['session'] = \Config\Services::session();
-
-        if(!$data['session']->get('logado')){
-            return redirect("login");
-        }
-
 
         $model->save([
             'id' => $this->request->getVar('id'),
@@ -132,10 +126,6 @@ public function concluir(){
     $model = new VeiculosModel();
     $data['session'] = \Config\Services::session();
 
-        if(!$data['session']->get('logado')){
-            return redirect("login");
-        }
-
 
     $model->save([
         'id' => $this->request->getVar('id'),
@@ -147,6 +137,23 @@ public function concluir(){
     
     return redirect('veiculo');
  }
+
+ public function editarVeiculo($id = null){
+    $model = new VeiculosModel();
+    $data = [ 
+        'veiculo' => $model->getVeiculo($id),
+        'session' => \Config\Services::session()
+    ];
+
+    if(!$data['session']->get('logado')){
+        return redirect("login");
+    }
+
+
+    echo view('temp/header');
+    echo view('cadastro-carro',$data);
+    echo view('temp/footer');
+}
  
  public function excluirVeiculo($id = null){
     $model = new VeiculosModel();
@@ -160,34 +167,30 @@ public function login(){
     echo view('temp/footer');
 }
 
-        public function logar(){
-            $model = new PessoasModel();
+Public function logar(){
+    $model = new PessoasModel();
 
-            $senha = $this->request->getVar("senha");
-            $nome = $this->request->getVar("nome");
+    $senha = $this->request->getVar("senha");
+    $nome = $this->request->getVar("usuario");
 
-            $data['usuario'] = $model->userLogin($nome, $senha);
-            $data['session'] = \Config\Services::session();
+    $data['usario'] = $model->userLogin($nome, $senha);
+    $data['session'] = \Config\Services::session();
 
-            if(empty($data['usuario'])){
-                return redirect("pessoa");
-            }
-            else{
-                $sessionData = [
-                    'usuario' => $nome,
-                    'logado' => TRUE
-                ];
+    if(empty($data['usario'])){
+        return redirect("login");
+    }else{
+        $sessionData = [
+            'usuario' => $nome,
+            'logado' => TRUE
+        ];
+        $data['session']->set($sessionData);
+        return redirect("pessoa");
+    }
+}
 
-                $data['session']->set($sessionData);
-                return redirect("pessoa");
-            }
-
-        }
-
-        public function sair(){
-            $data['session'] = \Config\Services::session();
-            $data['session']->destroy();
-            return redirect("login");
-        }
-
-    } 
+public function sair(){
+   $data['session'] = \Config\Services::session();
+   $data['session']->destroy();
+   return redirect("login");
+}
+}

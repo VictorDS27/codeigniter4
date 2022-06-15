@@ -2,7 +2,7 @@
 <div class="main-login">
     <div class="direita-login">
         <h1>Faça login:</h1>
-        <img src="img/login.svg" class="loginn" alt="astro">
+        <img src="<?=base_url()?>/img/login.svg" class="loginn" alt="astro">
     </div>
     <div class="esquerda-login">
         <div class="card-login">

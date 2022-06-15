@@ -2,7 +2,7 @@
 <div class="main-cadastro">
     <div class="direita-cadastro">
         <h1>Cadastre-se</h1>
-        <img src="img/cadastrop.svg" class="imagemAstro" alt="astro">
+        <img src="<?=base_url()?>/img/cadastrop.svg" class="imagemAstro" alt="astro">
     </div>
     <div class="esquerda-cadastro">
         <div class="card-cadastro">

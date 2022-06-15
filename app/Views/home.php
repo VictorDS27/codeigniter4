@@ -1,7 +1,7 @@
 <div class="main-home">
     <div class="direita-home">
         <h1>Venda de carros:</h1>
-        <img src="img/bemvindo.svg" class="imagemHome" alt="homee">
+        <img src="<?=base_url()?>/img/bemvindo.svg" class="imagemHome" alt="homee">
 </div>
     <div class="esquerda-home">
         <div class="card-home">

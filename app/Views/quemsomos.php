@@ -1,7 +1,7 @@
 <div class="main-quem">
     <div class="direita-quem">
         <h1>Quem somos?</h1>
-        <img src="img/quemsomos.svg" class="imagemQuem" alt="homee">
+        <img src="<?=base_url()?>/img/quemsomos.svg" class="imagemQuem" alt="homee">
 </div>
     <div class="esquerda-quem">
         <div class="card-quem">

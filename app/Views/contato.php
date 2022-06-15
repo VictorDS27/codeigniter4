@@ -2,7 +2,7 @@
 <div class="main-cad">
     <div class="direita-cad">
         <h1>Entre em contato:</h1>
-        <img src="img/email.svg" class="Emaill" alt="astro">
+        <img src="<?=base_url()?>/img/email.svg" class="Emaill" alt="astro">
     </div>
     <div class="esquerda-cad">
         <div class="card-cad">
